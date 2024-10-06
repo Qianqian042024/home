@@ -3,30 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qianqian Du's Home Page</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to a CSS file -->
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Qianqian Du</h1>
-    </header>
 
+    <!-- Top Section with Starry Background -->
+    <section id="hero">
+        <div class="container">
+            <h1>Dr. Dominik Haitz</h1>
+            <p>Data Scientist</p>
+            <div class="social-icons">
+                <a href="#"><img src="images/email-icon.png" alt="Email"></a>
+                <a href="#"><img src="images/github-icon.png" alt="GitHub"></a>
+                <a href="#"><img src="images/linkedin-icon.png" alt="LinkedIn"></a>
+                <!-- Add more icons here -->
+            </div>
+        </div>
+        <!-- Arrow icon for scrolling down -->
+        <a href="#about" class="scroll-down">
+            &#x25BC;
+        </a>
+    </section>
+
+    <!-- Second Section -->
     <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I’m building this site using GitHub Pages. Stay tuned for more updates!</p>
+        <div class="about-content">
+            <img src="images/profile.jpg" alt="Profile Picture">
+            <p>I'm a data scientist in Hamburg, Germany...</p>
+            <div class="skills">
+                <div class="skill">
+                    <h3>Analyzing</h3>
+                    <p>...Text for Analyzing...</p>
+                </div>
+                <div class="skill">
+                    <h3>Developing</h3>
+                    <p>...Text for Developing...</p>
+                </div>
+                <div class="skill">
+                    <h3>Communicating</h3>
+                    <p>...Text for Communicating...</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <ul>
-            <li>Project 1: A cool project description</li>
-            <li>Project 2: Another cool project</li>
-            <!-- Add more projects here -->
-        </ul>
-    </section>
-
-    <footer>
-        <p>Connect with me: <a href="https://github.com/yourusername">GitHub</a></p>
-    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
